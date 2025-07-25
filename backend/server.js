@@ -25,6 +25,21 @@ app.post("/books", (req, res) => {
   res.status(201).json(newBook);
 });
 
+// Delete book by ID
+app.delete("/books/:id", (req, res) => {
+  const id = req.params.id;
+  let data = JSON.parse(fs.readFileSync(DB_FILE, "utf8"));
+  const index = data.findIndex((book) => book.id === id);
+
+  if (index !== -1) {
+    const removed = data.splice(index, 1);
+    fs.writeFileSync(DB_FILE, JSON.stringify(data, null, 2));
+    res.status(200).json({ message: "Book removed", removed });
+  } else {
+    res.status(404).json({ error: "Book not found" });
+  }
+});
+
 // Start the server
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
