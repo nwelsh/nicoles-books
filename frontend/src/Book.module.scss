@@ -1,0 +1,39 @@
+.card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    background: #f9f9f9;
+    position: relative;
+  }
+  
+  .title {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+  
+  .author {
+    margin: 0.5rem 0;
+    color: #555;
+  }
+  
+  .description {
+    color: #333;
+  }
+  
+  .button {
+    background-color: #ff4d4d;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+  }
+  
+  .bookImage {
+    max-width: 100%;
+    height: 250px;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+  }

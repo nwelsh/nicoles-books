@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./Book.module.scss";
 
 export interface BookProps {
   id: string;
@@ -6,8 +7,23 @@ export interface BookProps {
   author: string;
   rating: string;
   description: string;
+  imageUrl?: string;
   onRemove: () => void;
+  onEdit: () => void;
 }
+
+const renderStars = (rating: string) => {
+  const stars = Math.floor(Number(rating));
+  const half = Number(rating) % 1 >= 0.5; // Check if there's a half-star
+
+  return (
+    <>
+      {"★".repeat(stars)}
+      {half && "½"}
+      {"☆".repeat(5 - stars - (half ? 1 : 0))}
+    </>
+  );
+};
 
 const Book: React.FC<BookProps> = ({
   title,
@@ -15,55 +31,30 @@ const Book: React.FC<BookProps> = ({
   rating,
   description,
   onRemove,
+  imageUrl,
+  onEdit,
 }) => {
   return (
-    <div style={styles.card}>
-      <h2 style={styles.title}>{title}</h2>
-      <h4 style={styles.author}>
-        {author} {rating && <>- {rating}/5</>}
+    <div className={styles.card}>
+      {imageUrl && (
+        <img
+          src={imageUrl}
+          alt={`${title} cover`}
+          className={styles.bookImage}
+        />
+      )}
+      <h2 className={styles.title}>{title}</h2>
+      <h4 className={styles.author}>
+        {author} {rating && <>- {renderStars(rating)}</>}
       </h4>
-      <p style={styles.description}>{description}</p>
-      <button onClick={onRemove} style={styles.button}>
+      <p className={styles.description}>{description}</p>
+      {/* <button onClick={onEdit} className={styles.buttonEdit}>Edit</button> */}
+
+      <button className={styles.button} onClick={onRemove}>
         Remove
       </button>
     </div>
   );
-};
-const styles: {
-  card: React.CSSProperties;
-  title: React.CSSProperties;
-  author: React.CSSProperties;
-  description: React.CSSProperties;
-  button: React.CSSProperties;
-} = {
-  card: {
-    border: "1px solid #ccc",
-    padding: "1rem",
-    margin: "1rem 0",
-    borderRadius: "8px",
-    background: "#f9f9f9",
-    position: "relative",
-  },
-  title: {
-    margin: 0,
-    fontSize: "1.25rem",
-  },
-  author: {
-    margin: "0.5rem 0",
-    color: "#555",
-  },
-  description: {
-    color: "#333",
-  },
-  button: {
-    backgroundColor: "#ff4d4d",
-    border: "none",
-    color: "white",
-    padding: "0.5rem 1rem",
-    borderRadius: "4px",
-    cursor: "pointer",
-    marginTop: "0.5rem",
-  },
 };
 
 export default Book;

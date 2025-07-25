@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "502a9d12-58fb-4ae7-b91a-2e47752ff7e2",
+    "title": "coraline",
+    "author": "neil gaiman",
+    "rating": "5",
+    "description": "",
+    "imageUrl": "https://m.media-amazon.com/images/I/71FvtJvTkRL.jpg"
+  },
+  {
+    "title": "The Summer I turned Pretty",
+    "author": "Jenny Han",
+    "rating": "5",
+    "description": "",
+    "imageUrl": "https://m.media-amazon.com/images/I/71j25Ib5FSL.jpg",
+    "id": "c07d2910-e35d-4e54-897b-f0a138e82e71"
+  }
+]

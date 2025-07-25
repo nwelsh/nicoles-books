@@ -1,6 +1,13 @@
 import React, { useEffect, useState } from "react";
 import BookForm from "./BookForm";
 import Book from "./Book";
+import styles from "./App.module.scss";
+
+// TODO
+// deploy
+// mobile version
+// favorites section
+// edit cards capability\
 
 interface BookData {
   id: string;
@@ -8,10 +15,12 @@ interface BookData {
   author: string;
   rating: string;
   description: string;
+  imageUrl: string;
 }
 
 const App = () => {
   const [books, setBooks] = useState<BookData[]>([]);
+  const [editingBook, setEditingBook] = useState<BookData | null>(null);
 
   const fetchBooks = async () => {
     const res = await fetch("http://localhost:4000/books");
@@ -27,7 +36,7 @@ const App = () => {
       console.error("Delete failed:", await response.text());
     }
 
-    fetchBooks(); // refresh
+    fetchBooks(); 
   };
 
   useEffect(() => {
@@ -35,14 +44,29 @@ const App = () => {
   }, []);
 
   return (
-    <div style={{ maxWidth: "600px", margin: "0 auto", padding: "2rem" }}>
-      <h1>My Book List</h1>
-      <BookForm onBookAdded={fetchBooks} />
+    <div className={styles.main}>
+      <h1 className={styles.title}>My Book List</h1>
+  
+      <BookForm
+        onBookAdded={() => {
+          fetchBooks();
+          setEditingBook(null);
+        }}
+        initialData={editingBook}
+        onCancelEdit={() => setEditingBook(null)}
+      />
+  
       {books.map((book) => (
-        <Book key={book.id} {...book} onRemove={() => removeBook(book.id)} />
+        <Book
+          key={book.id}
+          {...book}
+          onRemove={() => removeBook(book.id)}
+          onEdit={() => setEditingBook(book)}
+        />
       ))}
     </div>
   );
+  
 };
 
 export default App;
