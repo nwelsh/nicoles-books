@@ -11,4 +11,7 @@
 .books-container {
     display: flex;
     gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
 }

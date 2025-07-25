@@ -22,5 +22,37 @@
     "description": "",
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1712333252i/209878228.jpg",
     "id": "721a6af4-91c5-43cd-b91f-ac6023f08856"
+  },
+  {
+    "title": "The Crash",
+    "author": "Freida McFaddem",
+    "rating": "4.5",
+    "description": "",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1720712855i/216223604.jpg",
+    "id": "65ff1795-ccaa-47be-b70e-c322841444cc"
+  },
+  {
+    "title": "Till Summer Do Us Part",
+    "author": "Meghan Quinn",
+    "rating": "4",
+    "description": "",
+    "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1750687903i/227081370._SY180_.jpg",
+    "id": "6936d32d-00be-4c49-8450-66ab5ad96bd8"
+  },
+  {
+    "title": "How to Make Friends with the Dark",
+    "author": "Kathleen Glasgow",
+    "rating": "4",
+    "description": "",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1537464750i/40755416.jpg",
+    "id": "ef4857aa-92e3-455f-a536-892b55ad13fb"
+  },
+  {
+    "title": "It",
+    "author": "Stephen King",
+    "rating": "1.5",
+    "description": "",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1334416842i/830502.jpg",
+    "id": "7800ef53-15cf-47e9-9aac-2dc04421fd3d"
   }
 ]

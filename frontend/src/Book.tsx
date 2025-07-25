@@ -8,8 +8,8 @@ export interface BookProps {
   rating: string;
   description: string;
   imageUrl?: string;
-  onRemove: () => void;
-  onEdit: () => void;
+  onRemove?: () => void;
+  onEdit?: () => void;
 }
 
 const renderStars = (rating: string) => {

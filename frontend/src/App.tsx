@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import BookForm from "./BookForm";
 import Book from "./Book";
 import styles from "./App.module.scss";
+import FiveStarBooks from "./FiveStarBooks";
 
 // TODO
 // deploy
@@ -10,6 +11,10 @@ import styles from "./App.module.scss";
 // edit cards capability\
 // cards background color: random?
 // click on card and description shows up
+// currently reading section
+// Total count
+// Year count 
+// progress bar 
 
 interface BookData {
   id: string;
@@ -57,6 +62,8 @@ const App = () => {
         initialData={editingBook}
         onCancelEdit={() => setEditingBook(null)}
       />
+
+      {/* <FiveStarBooks books={books} onRemove={removeBook}  /> */}
 
       <div className={styles["books-container"]}>
         {books.map((book) => (
