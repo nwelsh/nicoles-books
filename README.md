@@ -11,3 +11,4 @@
 - [ ] Year count 
 - [ ] progress bar 
 - [ ] favorited books (up to 3)
+- [ ] connect to public apis for book metadata
