@@ -10,3 +10,4 @@
 - [ ] Total count
 - [ ] Year count 
 - [ ] progress bar 
+- [ ] favorited books (up to 3)

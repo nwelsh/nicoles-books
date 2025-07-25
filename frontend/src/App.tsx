@@ -4,17 +4,7 @@ import Book from "./Book";
 import styles from "./App.module.scss";
 import FiveStarBooks from "./FiveStarBooks";
 
-// TODO
-// deploy
-// mobile version
-// favorites section
-// edit cards capability\
-// cards background color: random?
-// click on card and description shows up
-// currently reading section
-// Total count
-// Year count 
-// progress bar 
+
 
 interface BookData {
   id: string;
