@@ -8,6 +8,8 @@ import styles from "./App.module.scss";
 // mobile version
 // favorites section
 // edit cards capability\
+// cards background color: random?
+// click on card and description shows up
 
 interface BookData {
   id: string;
@@ -36,7 +38,7 @@ const App = () => {
       console.error("Delete failed:", await response.text());
     }
 
-    fetchBooks(); 
+    fetchBooks();
   };
 
   useEffect(() => {
@@ -46,7 +48,7 @@ const App = () => {
   return (
     <div className={styles.main}>
       <h1 className={styles.title}>My Book List</h1>
-  
+
       <BookForm
         onBookAdded={() => {
           fetchBooks();
@@ -55,18 +57,19 @@ const App = () => {
         initialData={editingBook}
         onCancelEdit={() => setEditingBook(null)}
       />
-  
-      {books.map((book) => (
-        <Book
-          key={book.id}
-          {...book}
-          onRemove={() => removeBook(book.id)}
-          onEdit={() => setEditingBook(book)}
-        />
-      ))}
+
+      <div className={styles["books-container"]}>
+        {books.map((book) => (
+          <Book
+            key={book.id}
+            {...book}
+            onRemove={() => removeBook(book.id)}
+            onEdit={() => setEditingBook(book)}
+          />
+        ))}
+      </div>
     </div>
   );
-  
 };
 
 export default App;

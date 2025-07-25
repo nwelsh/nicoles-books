@@ -1,39 +1,56 @@
 .card {
-    border: 1px solid #ccc;
-    padding: 1rem;
-    margin: 1rem 0;
-    border-radius: 8px;
-    background: #f9f9f9;
-    position: relative;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  background: #f9f9f9;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5rem;
+  width: 100%;
+
+  @media (min-width: 768px) {
+    width: calc(50% - 0.5rem); 
   }
-  
-  .title {
-    margin: 0;
-    font-size: 1.25rem;
+
+  @media (min-width: 800px) {
+    width: calc(33.333% - 0.66rem);
   }
-  
-  .author {
-    margin: 0.5rem 0;
-    color: #555;
-  }
-  
-  .description {
-    color: #333;
-  }
-  
-  .button {
-    background-color: #ff4d4d;
-    border: none;
-    color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-top: 0.5rem;
-  }
-  
-  .bookImage {
-    max-width: 100%;
-    height: 250px;
-    margin-bottom: 1rem;
-    border-radius: 2rem;
-  }
+}
+
+.title {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.author {
+  margin: 0;
+  color: #555;
+  font-size: 0.75rem;
+}
+
+.stars {
+  margin: 0;
+  color: #555;
+}
+
+.description {
+  color: #333;
+}
+
+.button {
+  background-color: #020e36;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.bookImage {
+  max-width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
