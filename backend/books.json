@@ -5,7 +5,9 @@
     "author": "neil gaiman",
     "rating": "5",
     "description": "",
-    "imageUrl": "https://m.media-amazon.com/images/I/71FvtJvTkRL.jpg"
+    "imageUrl": "https://m.media-amazon.com/images/I/71FvtJvTkRL.jpg",
+    "pinned": true,
+    "isPinned": true
   },
   {
     "title": "The Summer I turned Pretty",
@@ -13,7 +15,9 @@
     "rating": "5",
     "description": "",
     "imageUrl": "https://m.media-amazon.com/images/I/71j25Ib5FSL.jpg",
-    "id": "c07d2910-e35d-4e54-897b-f0a138e82e71"
+    "id": "c07d2910-e35d-4e54-897b-f0a138e82e71",
+    "pinned": true,
+    "isPinned": true
   },
   {
     "title": "The Butcher Game",
@@ -21,7 +25,8 @@
     "rating": "5",
     "description": "",
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1712333252i/209878228.jpg",
-    "id": "721a6af4-91c5-43cd-b91f-ac6023f08856"
+    "id": "721a6af4-91c5-43cd-b91f-ac6023f08856",
+    "isPinned": false
   },
   {
     "title": "The Crash",
@@ -29,7 +34,8 @@
     "rating": "4.5",
     "description": "",
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1720712855i/216223604.jpg",
-    "id": "65ff1795-ccaa-47be-b70e-c322841444cc"
+    "id": "65ff1795-ccaa-47be-b70e-c322841444cc",
+    "isPinned": true
   },
   {
     "title": "Till Summer Do Us Part",
@@ -37,7 +43,8 @@
     "rating": "4",
     "description": "",
     "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1750687903i/227081370._SY180_.jpg",
-    "id": "6936d32d-00be-4c49-8450-66ab5ad96bd8"
+    "id": "6936d32d-00be-4c49-8450-66ab5ad96bd8",
+    "pinned": true
   },
   {
     "title": "How to Make Friends with the Dark",

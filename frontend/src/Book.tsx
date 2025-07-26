@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Book.module.scss";
+import { ReactComponent as PinIcon } from "./icons/pin.svg";
 
 export interface BookProps {
   id: string;
@@ -8,8 +9,10 @@ export interface BookProps {
   rating: string;
   description: string;
   imageUrl?: string;
+  isPinned: boolean;
   onRemove?: () => void;
   onEdit?: () => void;
+  onTogglePin?: () => void;
 }
 
 const renderStars = (rating: string) => {
@@ -33,9 +36,13 @@ const Book: React.FC<BookProps> = ({
   onRemove,
   imageUrl,
   onEdit,
+  isPinned,
+  onTogglePin,
 }) => {
   return (
     <div className={styles.card}>
+
+      <PinIcon onClick={onTogglePin} className={isPinned ? styles.pinned : styles.unpinned}></PinIcon>
       {imageUrl && (
         <img
           src={imageUrl}
@@ -44,9 +51,7 @@ const Book: React.FC<BookProps> = ({
         />
       )}
       <h2 className={styles.title}>{title}</h2>
-      <h4 className={styles.author}>
-        {author}
-      </h4>
+      <h4 className={styles.author}>{author}</h4>
       {rating && <p className={styles.stars}>{renderStars(rating)}</p>}
       <p className={styles.description}>{description}</p>
       {/* <button onClick={onEdit} className={styles.buttonEdit}>Edit</button> */}

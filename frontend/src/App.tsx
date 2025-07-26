@@ -4,8 +4,6 @@ import Book from "./Book";
 import styles from "./App.module.scss";
 import FiveStarBooks from "./FiveStarBooks";
 
-
-
 interface BookData {
   id: string;
   title: string;
@@ -13,11 +11,14 @@ interface BookData {
   rating: string;
   description: string;
   imageUrl: string;
+  isPinned: boolean;
 }
 
 const App = () => {
   const [books, setBooks] = useState<BookData[]>([]);
   const [editingBook, setEditingBook] = useState<BookData | null>(null);
+  const pinnedBooks = books.filter((book) => book.isPinned);
+  const unpinnedBooks = books.filter((book) => !book.isPinned);
 
   const fetchBooks = async () => {
     const res = await fetch("http://localhost:4000/books");
@@ -40,10 +41,46 @@ const App = () => {
     fetchBooks();
   }, []);
 
+  const togglePin = async (id: string) => {
+    const book = books.find((b) => b.id === id);
+    const pinnedCount = books.filter((b) => b.isPinned).length;
+
+    if (!book) return;
+
+    if (!book.isPinned && pinnedCount >= 3) {
+      alert("You can only pin up to 3 books.");
+      return;
+    }
+
+    const updatedBook = { ...book, isPinned: !book.isPinned };
+
+    await fetch(`http://localhost:4000/books/${id}`, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(updatedBook),
+    });
+
+    fetchBooks();
+  };
+
   return (
     <div className={styles.main}>
-      <h1 className={styles.title}>My Book List</h1>
+      <h1 className={styles.title}>Nicoles 5 star books</h1>
 
+      <h2>My favorite books</h2>
+      <div className={styles.pinnedSection}>
+        {pinnedBooks.map((book) => (
+          <Book
+            key={book.id}
+            {...book}
+            onRemove={() => removeBook(book.id)}
+            onEdit={() => setEditingBook(book)}
+            onTogglePin={() => togglePin(book.id)}
+          />
+        ))}
+      </div>
+
+      <h1 className={styles.title}>Add a new book!</h1>
       <BookForm
         onBookAdded={() => {
           fetchBooks();
@@ -62,6 +99,7 @@ const App = () => {
             {...book}
             onRemove={() => removeBook(book.id)}
             onEdit={() => setEditingBook(book)}
+            onTogglePin={() => togglePin(book.id)}
           />
         ))}
       </div>

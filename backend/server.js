@@ -54,6 +54,22 @@ app.put("/books/:id", (req, res) => {
       res.status(404).json({ error: "Book not found" });
     }
   });
+
+  app.put("/books/:id", (req, res) => {
+    const id = req.params.id;
+    const updatedBook = req.body;
+  
+    const data = JSON.parse(fs.readFileSync(DB_FILE, "utf8"));
+    const index = data.findIndex(book => book.id === id);
+  
+    if (index !== -1) {
+      data[index] = { ...data[index], ...updatedBook };
+      fs.writeFileSync(DB_FILE, JSON.stringify(data, null, 2));
+      res.json(data[index]);
+    } else {
+      res.status(404).json({ error: "Book not found" });
+    }
+  });
   
 
 // Start the server
