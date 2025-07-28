@@ -59,7 +59,7 @@ const Book: React.FC<BookProps> = ({
       <h2 className={styles.title}>{title}</h2>
       <h4 className={styles.author}>{author}</h4>
       {rating && <p className={styles.stars}>{renderStars(rating)}</p>}
-      <p className={styles.description}>{description}</p>
+      {description && <p className={styles.description}>{description}</p>}
       {/* <button onClick={onEdit} className={styles.buttonEdit}>Edit</button> */}
     </div>
   );

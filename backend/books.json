@@ -7,7 +7,7 @@
     "description": "",
     "imageUrl": "https://m.media-amazon.com/images/I/71FvtJvTkRL.jpg",
     "pinned": true,
-    "isPinned": false
+    "isPinned": true
   },
   {
     "title": "The Summer I turned Pretty",
@@ -52,5 +52,14 @@
     "description": "",
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1334416842i/830502.jpg",
     "id": "7800ef53-15cf-47e9-9aac-2dc04421fd3d"
+  },
+  {
+    "title": "Till Summer Do Us Part",
+    "author": "Meghan Quinn",
+    "rating": "4.5",
+    "description": "",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1750687903i/227081370.jpg",
+    "id": "956fdd9f-a450-4108-ba98-cc0e569dbe2d",
+    "isPinned": true
   }
 ]
