@@ -66,6 +66,7 @@ const App = () => {
   return (
     <div className={styles.main}>
       <h1 className={styles.title}>Nicoles 5 star books</h1>
+      <p>Nicole has read {books.length} books this year!</p>
 
       <h2>My favorite books</h2>
       <div className={styles.pinnedSection}>
