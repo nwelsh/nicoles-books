@@ -6,7 +6,7 @@
 - [ ] edit cards capability
 - [ ] cards background color: random?
 - [ ] click on card and description shows up
-- [ ] favorited books (up to 3)
+- [x] favorited books (up to 3)
 - [ ] connect to public apis for book metadata
 
 
