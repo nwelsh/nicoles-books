@@ -65,10 +65,9 @@ const App = () => {
 
   return (
     <div className={styles.main}>
-      <h1 className={styles.title}>Nicoles 5 star books</h1>
-      <p>Nicole has read {books.length} books this year!</p>
-
-      <h2>My favorite books</h2>
+      <h1 className={styles.title}>Nicole's 2025 books</h1>
+      <p>Nicole has read {books.length} books total this year!</p>
+      <h2>Faves to date:</h2>
       <div className={styles.pinnedSection}>
         {pinnedBooks.map((book) => (
           <Book
