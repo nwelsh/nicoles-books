@@ -86,5 +86,45 @@
     "description": "",
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1722962856i/157020084.jpg",
     "id": "4198a893-97ba-498d-9e85-cf439afe4cb4"
+  },
+  {
+    "title": "The Spare Room",
+    "author": "Andrea Bartz",
+    "rating": "4.5",
+    "description": "",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1668179223i/63222106.jpg",
+    "id": "dd8c556a-7596-45d4-b568-c342a6e71419"
+  },
+  {
+    "title": "The Tenant",
+    "author": "Freida McFadden",
+    "rating": "4",
+    "description": "",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1734361066i/221733722.jpg",
+    "id": "54263e37-3f9e-4fba-8938-c51115c38a63"
+  },
+  {
+    "title": "Sunrise on the Reaping",
+    "author": "Suzanne Collins",
+    "rating": "5",
+    "description": "",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1729085500i/214331246.jpg",
+    "id": "74143284-54d0-45e7-98f6-8147939df512"
+  },
+  {
+    "title": "The Business Trip",
+    "author": "Jessie Garcia",
+    "rating": "2",
+    "description": "",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1718938517i/211003858.jpg",
+    "id": "a2063e12-d08d-4d0e-874e-3f402b56d123"
+  },
+  {
+    "title": "Love & Lattes",
+    "author": "Beth Reekles",
+    "rating": "3",
+    "description": "",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1707000655i/205804242.jpg",
+    "id": "357bcc52-3f92-415f-891c-544dedffa2ec"
   }
 ]

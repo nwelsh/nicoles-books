@@ -7,6 +7,8 @@
   flex-direction: row-reverse;
   justify-content: center;
   gap: 2rem;
+  background: rgb(241, 234, 237);
+
 }
 
 .sideBar {
@@ -17,8 +19,8 @@
 }
 
 .stats, .bookContainer {
-    border: 1px solid rgb(255, 0, 166);
-    background: rgb(252, 236, 246);
+    border: 2px solid rgb(255, 0, 166);
+    background: rgb(250, 225, 241);
     border-radius: 0.5rem;
     padding: 1rem;
 }

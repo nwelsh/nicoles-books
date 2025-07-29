@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./Book.module.scss";
 import { ReactComponent as PinIcon } from "./icons/pin.svg";
 import { ReactComponent as TrashIcon } from "./icons/trash.svg";
@@ -15,6 +15,23 @@ export interface BookProps {
   onEdit?: () => void;
   onTogglePin?: () => void;
 }
+
+const getRandomColor = () => {
+  const pastelColors = [
+    "#FFCDD2",
+    "#F8BBD0",
+    "#E1BEE7",
+    "#D1C4E9",
+    "#C5CAE9",
+    "#BBDEFB",
+    "#B2EBF2",
+    "#C8E6C9",
+    "#FFF9C4",
+    "#FFE0B2",
+    "#FFCCBC",
+  ];
+  return pastelColors[Math.floor(Math.random() * pastelColors.length)];
+};
 
 const renderStars = (rating: string) => {
   const stars = Math.floor(Number(rating));
@@ -40,8 +57,13 @@ const Book: React.FC<BookProps> = ({
   isPinned,
   onTogglePin,
 }) => {
+  const [bgColor, setBgColor] = useState<string>("");
+
+  useEffect(() => {
+    setBgColor(getRandomColor());
+  }, []);
   return (
-    <div className={styles.card}>
+    <div className={styles.card} style={{ backgroundColor: bgColor }}> 
       <div className={styles.icons}>
         <PinIcon
           onClick={onTogglePin}
