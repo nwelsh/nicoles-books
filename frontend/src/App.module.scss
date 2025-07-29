@@ -11,6 +11,16 @@
 
 .sideBar {
   width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.stats, .bookContainer {
+    border: 1px solid rgb(255, 0, 166);
+    background: rgb(252, 236, 246);
+    border-radius: 0.5rem;
+    padding: 1rem;
 }
 
 .mainSection {

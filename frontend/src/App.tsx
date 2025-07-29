@@ -66,18 +66,27 @@ const App = () => {
   return (
     <div className={styles.main}>
       <div className={styles.sideBar}>
+      <div className={styles.stats}>
         <p>Total books in 2025: {books.length}</p>
         <p>2025 Goal: 150</p>
-        <a href="https://www.goodreads.com/review/stats/147000214-nicole-welsh" target="_blank">Goodreads</a>
-        <h1 className={styles.title}>Add a new book!</h1>
-        <BookForm
-          onBookAdded={() => {
-            fetchBooks();
-            setEditingBook(null);
-          }}
-          initialData={editingBook}
-          onCancelEdit={() => setEditingBook(null)}
-        />
+        <a
+          href="https://www.goodreads.com/review/stats/147000214-nicole-welsh"
+          target="_blank"
+        >
+          Goodreads
+        </a>
+        </div>
+        <div className={styles.bookContainer}>
+          <h1 className={styles.title}>Add a new book</h1>
+          <BookForm
+            onBookAdded={() => {
+              fetchBooks();
+              setEditingBook(null);
+            }}
+            initialData={editingBook}
+            onCancelEdit={() => setEditingBook(null)}
+          />
+        </div>
       </div>
       <div className={styles.mainSection}>
         <h1 className={styles.mainTitle}>Nicole's 2025 books</h1>

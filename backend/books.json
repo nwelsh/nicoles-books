@@ -60,6 +60,31 @@
     "description": "",
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1750687903i/227081370.jpg",
     "id": "956fdd9f-a450-4108-ba98-cc0e569dbe2d",
+    "isPinned": false
+  },
+  {
+    "title": "The Phantom Tollbooth",
+    "author": "Norton Juster ,  Jules Feiffer",
+    "rating": "5",
+    "description": "",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1558858485i/378.jpg",
+    "id": "4fce13d8-b38a-48d5-92fa-7891302e816c",
     "isPinned": true
+  },
+  {
+    "title": "My Return to the Walter Boys",
+    "author": "Ali Novak",
+    "rating": "3.5",
+    "description": "",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1738258844i/215057178.jpg",
+    "id": "b2a3ff73-e3f0-495b-985d-7654134504dc"
+  },
+  {
+    "title": "The Summer She Went Missing",
+    "author": "Chelsea Ichaso",
+    "rating": "4.5",
+    "description": "",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1722962856i/157020084.jpg",
+    "id": "4198a893-97ba-498d-9e85-cf439afe4cb4"
   }
 ]
