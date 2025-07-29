@@ -1,14 +1,24 @@
 .main {
-  max-width: 800px;
-  margin: 0 auto;
+//   max-width: 1200px;
+  margin: 0;
   padding: 2rem;
-  font-family: 'Press Start 2P', monospace;
+  font-family: "Press Start 2P", monospace;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 2rem;
+}
 
+.sideBar {
+  width: 20%;
+}
+
+.mainSection {
+  width: 70%;
 }
 
 .title {
   font-size: 36px;
-
 }
 
 .books-container,
