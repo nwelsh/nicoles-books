@@ -1,5 +1,5 @@
 .main {
-//   max-width: 1200px;
+  //   max-width: 1200px;
   margin: 0;
   padding: 2rem;
   font-family: "Press Start 2P", monospace;
@@ -17,8 +17,13 @@
   width: 70%;
 }
 
-.title {
+.mainTitle {
   font-size: 36px;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
 }
 
 .books-container,

@@ -66,51 +66,50 @@ const App = () => {
   return (
     <div className={styles.main}>
       <div className={styles.sideBar}>
-      <p>Nicole has read {books.length} books total this year!</p>
-      <h1 className={styles.title}>Add a new book!</h1>
-      <BookForm
-        onBookAdded={() => {
-          fetchBooks();
-          setEditingBook(null);
-        }}
-        initialData={editingBook}
-        onCancelEdit={() => setEditingBook(null)}
-      />
+        <p>Total books in 2025: {books.length}</p>
+        <p>2025 Goal: 150</p>
+        <a href="https://www.goodreads.com/review/stats/147000214-nicole-welsh" target="_blank">Goodreads</a>
+        <h1 className={styles.title}>Add a new book!</h1>
+        <BookForm
+          onBookAdded={() => {
+            fetchBooks();
+            setEditingBook(null);
+          }}
+          initialData={editingBook}
+          onCancelEdit={() => setEditingBook(null)}
+        />
       </div>
       <div className={styles.mainSection}>
-      <h1 className={styles.title}>Nicole's 2025 books</h1>
+        <h1 className={styles.mainTitle}>Nicole's 2025 books</h1>
 
-      <h2>2025 top 3:</h2>
-      <div className={styles.pinnedSection}>
-        {pinnedBooks.map((book) => (
-          <Book
-            key={book.id}
-            {...book}
-            onRemove={() => removeBook(book.id)}
-            onEdit={() => setEditingBook(book)}
-            onTogglePin={() => togglePin(book.id)}
-          />
-        ))}
-      </div>
+        <h2>2025 top 3:</h2>
+        <div className={styles.pinnedSection}>
+          {pinnedBooks.map((book) => (
+            <Book
+              key={book.id}
+              {...book}
+              onRemove={() => removeBook(book.id)}
+              onEdit={() => setEditingBook(book)}
+              onTogglePin={() => togglePin(book.id)}
+            />
+          ))}
+        </div>
 
-      
-
-      {/* <FiveStarBooks books={books} onRemove={removeBook}  /> */}
-      <h2>All 2025 books:</h2>
-      <div className={styles["books-container"]}>
-        {books.map((book) => (
-          <Book
-            key={book.id}
-            {...book}
-            onRemove={() => removeBook(book.id)}
-            onEdit={() => setEditingBook(book)}
-            onTogglePin={() => togglePin(book.id)}
-          />
-        ))}
+        {/* <FiveStarBooks books={books} onRemove={removeBook}  /> */}
+        <h2>All 2025 books:</h2>
+        <div className={styles["books-container"]}>
+          {books.map((book) => (
+            <Book
+              key={book.id}
+              {...book}
+              onRemove={() => removeBook(book.id)}
+              onEdit={() => setEditingBook(book)}
+              onTogglePin={() => togglePin(book.id)}
+            />
+          ))}
+        </div>
       </div>
     </div>
-    </div>
-
   );
 };
 
