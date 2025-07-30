@@ -7,7 +7,6 @@ interface BookData {
   title: string;
   author: string;
   rating: string;
-  description: string;
   imageUrl: string;
 }
 
@@ -25,9 +24,6 @@ const BookForm: React.FC<BookFormProps> = ({
   const [title, setTitle] = useState(initialData?.title || "");
   const [author, setAuthor] = useState(initialData?.author || "");
   const [rating, setRating] = useState(initialData?.rating || "");
-  const [description, setDescription] = useState(
-    initialData?.description || ""
-  );
   const [imageUrl, setImageUrl] = useState(initialData?.imageUrl || "");
   const isEditMode = !!initialData;
 
@@ -40,7 +36,6 @@ const BookForm: React.FC<BookFormProps> = ({
       title,
       author,
       rating: numericRating.toString(),
-      description,
       imageUrl,
     };
 
@@ -64,7 +59,6 @@ const BookForm: React.FC<BookFormProps> = ({
     setTitle("");
     setAuthor("");
     setRating("");
-    setDescription("");
     setImageUrl("");
   };
 
@@ -74,7 +68,7 @@ const BookForm: React.FC<BookFormProps> = ({
         type="text"
         value={imageUrl}
         onChange={(e) => setImageUrl(e.target.value)}
-        placeholder="Image URL (optional)"
+        placeholder="Image URL"
         className={styles.input}
       />
       <input
@@ -102,19 +96,14 @@ const BookForm: React.FC<BookFormProps> = ({
         step="0.5"
         required
       />
-      <textarea
-        className={styles.input}
-        value={description}
-        onChange={(e) => setDescription(e.target.value)}
-        placeholder="Description"
-      />
+
       <button className={styles.button}>Add Book</button>
       <a
-            href="https://www.goodreads.com/review/stats/147000214-nicole-welsh"
-            target="_blank"
-          >
-            Goodreads
-          </a>
+        href="https://www.goodreads.com/review/stats/147000214-nicole-welsh"
+        target="_blank"
+      >
+        Goodreads
+      </a>
       {/* {initialData && <button type="button" onClick={onCancelEdit}>Cancel</button>} */}
     </form>
   );

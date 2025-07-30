@@ -9,7 +9,6 @@ interface BookData {
   title: string;
   author: string;
   rating: string;
-  description: string;
   imageUrl: string;
   isPinned: boolean;
 }

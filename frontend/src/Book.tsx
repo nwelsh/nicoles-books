@@ -8,7 +8,6 @@ export interface BookProps {
   title: string;
   author: string;
   rating: string;
-  description: string;
   imageUrl?: string;
   isPinned: boolean;
   onRemove?: () => void;
@@ -50,7 +49,6 @@ const Book: React.FC<BookProps> = ({
   title,
   author,
   rating,
-  description,
   onRemove,
   imageUrl,
   onEdit,
@@ -81,7 +79,6 @@ const Book: React.FC<BookProps> = ({
       <h2 className={styles.title}>{title}</h2>
       <h4 className={styles.author}>{author}</h4>
       {rating && <p className={styles.stars}>{renderStars(rating)}</p>}
-      {description && <p className={styles.description}>{description}</p>}
     </div>
   );
 };
