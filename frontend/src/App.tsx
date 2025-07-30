@@ -65,57 +65,60 @@ const App = () => {
 
   return (
     <div className={styles.main}>
-      <div className={styles.sideBar}>
-      <div className={styles.stats}>
-        <p>Total books in 2025: {books.length}</p>
-        <p>2025 Goal: 150</p>
-        <a
-          href="https://www.goodreads.com/review/stats/147000214-nicole-welsh"
-          target="_blank"
-        >
-          Goodreads
-        </a>
-        </div>
-        <div className={styles.bookContainer}>
-          <h1 className={styles.title}>Add a new book</h1>
-          <BookForm
-            onBookAdded={() => {
-              fetchBooks();
-              setEditingBook(null);
-            }}
-            initialData={editingBook}
-            onCancelEdit={() => setEditingBook(null)}
-          />
-        </div>
-      </div>
-      <div className={styles.mainSection}>
-        <h1 className={styles.mainTitle}>Nicole's 2025 books</h1>
-
-        <h2>2025 top 3:</h2>
-        <div className={styles.pinnedSection}>
-          {pinnedBooks.map((book) => (
-            <Book
-              key={book.id}
-              {...book}
-              onRemove={() => removeBook(book.id)}
-              onEdit={() => setEditingBook(book)}
-              onTogglePin={() => togglePin(book.id)}
+      <h1 className={styles.mainTitle}>Nicole's 2025 books</h1>
+      <div className={styles.container}>
+        <div className={styles.sideBar}>
+          <div className={styles.stats}>
+            <p className={styles.statsTotal}>
+              Total books in 2025: {books.length}
+            </p>
+            <p className={styles.statsGoal}>2025 Goal: 150</p>
+            <div className={styles.progressWrapper}>
+              <div
+                className={styles.progressBar}
+                style={{ width: `${(books.length / 150) * 100}%` }}
+              />
+            </div>
+          </div>
+          <div className={styles.bookContainer}>
+            <h1 className={styles.title}>Add a new book</h1>
+            <BookForm
+              onBookAdded={() => {
+                fetchBooks();
+                setEditingBook(null);
+              }}
+              initialData={editingBook}
+              onCancelEdit={() => setEditingBook(null)}
             />
-          ))}
+          </div>
         </div>
+        <div className={styles.mainSection}>
+          <h2 className={styles["top-title"]}>2025 top 3:</h2>
+          <div className={styles.pinnedSection}>
+            {pinnedBooks.map((book) => (
+              <Book
+                key={book.id}
+                {...book}
+                onRemove={() => removeBook(book.id)}
+                onEdit={() => setEditingBook(book)}
+                onTogglePin={() => togglePin(book.id)}
+              />
+            ))}
+          </div>
 
-        {/* <FiveStarBooks books={books} onRemove={removeBook}  /> */}
-        <h2>All 2025 books:</h2>
-        <div className={styles["books-container"]}>
-          {books.map((book) => (
-            <Book
-              key={book.id}
-              {...book}
-              onRemove={() => removeBook(book.id)}
-              onEdit={() => setEditingBook(book)}
-              onTogglePin={() => togglePin(book.id)}
-            />
-          ))}
+          {/* <FiveStarBooks books={books} onRemove={removeBook}  /> */}
+          <h2>All 2025 books:</h2>
+          <div className={styles["books-container"]}>
+            {books.map((book) => (
+              <Book
+                key={book.id}
+                {...book}
+                onRemove={() => removeBook(book.id)}
+                onEdit={() => setEditingBook(book)}
+                onTogglePin={() => togglePin(book.id)}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </div>

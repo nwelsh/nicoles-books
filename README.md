@@ -8,10 +8,11 @@
 - [ ] click on card and description shows up
 - [x] favorited books (up to 3)
 - [ ] connect to public apis for book metadata
+- [] color pallet
 
 
 sidebar
 - [ ] currently reading section
-- [ ] Total count
-- [ ] Year count 
-- [ ] progress bar 
+- [x] Total count
+- [x] Year count 
+- [x] progress bar 

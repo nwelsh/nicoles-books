@@ -35,7 +35,7 @@ const getRandomColor = () => {
 
 const renderStars = (rating: string) => {
   const stars = Math.floor(Number(rating));
-  const half = Number(rating) % 1 >= 0.5; // Check if there's a half-star
+  const half = Number(rating) % 1 >= 0.5; 
 
   return (
     <>
@@ -82,7 +82,6 @@ const Book: React.FC<BookProps> = ({
       <h4 className={styles.author}>{author}</h4>
       {rating && <p className={styles.stars}>{renderStars(rating)}</p>}
       {description && <p className={styles.description}>{description}</p>}
-      {/* <button onClick={onEdit} className={styles.buttonEdit}>Edit</button> */}
     </div>
   );
 };

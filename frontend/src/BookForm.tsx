@@ -109,6 +109,12 @@ const BookForm: React.FC<BookFormProps> = ({
         placeholder="Description"
       />
       <button className={styles.button}>Add Book</button>
+      <a
+            href="https://www.goodreads.com/review/stats/147000214-nicole-welsh"
+            target="_blank"
+          >
+            Goodreads
+          </a>
       {/* {initialData && <button type="button" onClick={onCancelEdit}>Cancel</button>} */}
     </form>
   );

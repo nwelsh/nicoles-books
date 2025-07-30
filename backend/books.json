@@ -38,14 +38,6 @@
     "isPinned": false
   },
   {
-    "title": "How to Make Friends with the Dark",
-    "author": "Kathleen Glasgow",
-    "rating": "4",
-    "description": "",
-    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1537464750i/40755416.jpg",
-    "id": "ef4857aa-92e3-455f-a536-892b55ad13fb"
-  },
-  {
     "title": "It",
     "author": "Stephen King",
     "rating": "1.5",
@@ -126,5 +118,13 @@
     "description": "",
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1707000655i/205804242.jpg",
     "id": "357bcc52-3f92-415f-891c-544dedffa2ec"
+  },
+  {
+    "title": "The Trap",
+    "author": "Catherine Ryan Howard",
+    "rating": "3.5",
+    "description": "",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1677561297i/75634216.jpg",
+    "id": "9956a43e-c613-48a5-b490-72ac14b15451"
   }
 ]

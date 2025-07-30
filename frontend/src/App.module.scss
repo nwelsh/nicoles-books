@@ -1,14 +1,18 @@
 .main {
-  //   max-width: 1200px;
   margin: 0;
   padding: 2rem;
   font-family: "Press Start 2P", monospace;
   display: flex;
+  flex-direction: column;
+  background: rgb(241, 234, 237);
+  color: rgb(71, 1, 126);
+}
+
+.container {
+  display: flex;
   flex-direction: row-reverse;
   justify-content: center;
   gap: 2rem;
-  background: rgb(241, 234, 237);
-
 }
 
 .sideBar {
@@ -18,23 +22,53 @@
   gap: 2rem;
 }
 
-.stats, .bookContainer {
-    border: 2px solid rgb(255, 0, 166);
-    background: rgb(250, 225, 241);
-    border-radius: 0.5rem;
-    padding: 1rem;
+.stats,
+.bookContainer {
+  border: 2px solid rgb(120, 2, 210);
+  background: rgb(250, 225, 241);
+  border-radius: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
+
+.statsTotal,
+.statsGoal {
+  margin: 0;
+}
+
+.progressWrapper {
+    width: 100%;
+    background-color: rgb(223, 195, 195);
+    border-radius: 10px;
+    height: 16px;
+    margin-top: 0.5rem;
+    overflow: hidden;
+  }
+  
+  .progressBar {
+    height: 100%;
+    background-color: #e600f6; 
+    transition: width 0.3s ease;
+  }
 
 .mainSection {
   width: 70%;
 }
 
 .mainTitle {
-  font-size: 36px;
+  font-size: 48px;
   text-align: center;
 }
 
 .title {
+  font-size: 24px;
+  margin: 0;
+}
+
+.top-title {
+  margin: 0;
   font-size: 24px;
 }
 
