@@ -8,6 +8,7 @@
 - [x] favorited books (up to 3)
 - [ ] color pallet
 - [ ] card hover state
+- [ ] color stylesheet
 
 sidebar
 - [ ] currently reading section
