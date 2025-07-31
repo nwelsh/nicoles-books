@@ -1,7 +1,7 @@
 // TODO
 
 - [ ] deploy
-- [ ] mobile version
+- [x] mobile version
 - [x] favorites section
 - [x] cards background color: random
 - [x] favorited books (up to 3)
