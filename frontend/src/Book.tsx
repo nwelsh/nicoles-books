@@ -34,7 +34,7 @@ const getRandomColor = () => {
 
 const renderStars = (rating: string) => {
   const stars = Math.floor(Number(rating));
-  const half = Number(rating) % 1 >= 0.5; 
+  const half = Number(rating) % 1 >= 0.5;
 
   return (
     <>
@@ -61,7 +61,7 @@ const Book: React.FC<BookProps> = ({
     setBgColor(getRandomColor());
   }, []);
   return (
-    <div className={styles.card} style={{ backgroundColor: bgColor }}> 
+    <div className={styles.card} style={{ backgroundColor: bgColor }}>
       <div className={styles.icons}>
         <PinIcon
           onClick={onTogglePin}
