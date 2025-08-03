@@ -20,13 +20,11 @@ const FiveStarBooks: React.FC<FiveStarBooksProps> = ({
 
   return (
     <div>
-      <h2>5 Star Books</h2>
       <div
         style={{
           display: "flex",
           flexWrap: "wrap",
           gap: "1rem",
-          border: "1px solid red",
         }}
       >
         {fiveStarBooks.map((book) => (
