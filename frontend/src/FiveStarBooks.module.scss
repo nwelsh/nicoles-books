@@ -1,12 +1,17 @@
 .main {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-    // background-color: red;
+  display: flex;
+  flex-direction: column;
+  // background-color: red;
 }
 
-.fiveStars {
-    font-size: 48px;
-    margin: 0;
-    margin-top: 2rem;
-  }
+.title {
+  font-size: 48px;
+  margin: 0;
+  margin-top: 2rem;
+}
+
+.books-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}

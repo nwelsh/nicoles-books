@@ -20,10 +20,9 @@ const FiveStarBooks: React.FC<FiveStarBooksProps> = ({
   }
 
   return (
-    <div>
-      <div className={styles.main}>
-        {" "}
-        <h2 className={styles.fiveStars}>★★★★★</h2>
+    <div className={styles.main}>
+      <h2 className={styles.title}>★★★★★</h2>
+      <div className={styles["books-container"]}>
         {fiveStarBooks.map((book) => (
           <Book key={book.id} {...book} />
         ))}
