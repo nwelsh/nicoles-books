@@ -21,9 +21,9 @@ const FiveStarBooks: React.FC<FiveStarBooksProps> = ({
 
   return (
     <div>
-      <div
-        className={styles.main}
-      >
+      <div className={styles.main}>
+        {" "}
+        <h2 className={styles.fiveStars}>★★★★★</h2>
         {fiveStarBooks.map((book) => (
           <Book key={book.id} {...book} />
         ))}
