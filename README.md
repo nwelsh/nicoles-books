@@ -8,6 +8,7 @@
 - [ ] card hover state
 - [ ] color stylesheet/pallet
 - [ ] style 5 star books
+- [ ] add data
 
 sidebar
 - [x] Total count

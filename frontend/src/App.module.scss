@@ -17,7 +17,6 @@
   @media (min-width: 768px) {
     flex-direction: row-reverse;
   }
-
 }
 
 .sideBar {
@@ -48,19 +47,19 @@
 }
 
 .progressWrapper {
-    width: 100%;
-    background-color: rgb(223, 195, 195);
-    border-radius: 10px;
-    height: 16px;
-    margin-top: 0.5rem;
-    overflow: hidden;
-  }
-  
-  .progressBar {
-    height: 100%;
-    background-color: #e600f6; 
-    transition: width 0.3s ease;
-  }
+  width: 100%;
+  background-color: rgb(223, 195, 195);
+  border-radius: 10px;
+  height: 16px;
+  margin-top: 0.5rem;
+  overflow: hidden;
+}
+
+.progressBar {
+  height: 100%;
+  background-color: #e600f6;
+  transition: width 0.3s ease;
+}
 
 .mainSection {
   width: 100%;
@@ -81,8 +80,15 @@
 }
 
 .fiveStars {
-    font-size: 48px;
+  font-size: 48px;
   margin: 0;
+  margin-top: 2rem;
+}
+
+.allBooks {
+  font-size: 24px;
+  margin: 0;
+  margin-top: 2rem;
 }
 
 .top-title {

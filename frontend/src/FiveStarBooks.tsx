@@ -1,5 +1,6 @@
 import React from "react";
 import Book, { BookProps } from "./Book";
+import styles from "./FiveStarBooks.module.scss";
 
 interface FiveStarBooksProps {
   books: BookProps[];
@@ -21,11 +22,7 @@ const FiveStarBooks: React.FC<FiveStarBooksProps> = ({
   return (
     <div>
       <div
-        style={{
-          display: "flex",
-          flexWrap: "wrap",
-          gap: "1rem",
-        }}
+        className={styles.main}
       >
         {fiveStarBooks.map((book) => (
           <Book key={book.id} {...book} />

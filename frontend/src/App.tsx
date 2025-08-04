@@ -107,7 +107,7 @@ const App = () => {
 
           <h2 className={styles.fiveStars}>★★★★★</h2>
           <FiveStarBooks books={books} onRemove={removeBook} />
-          <h2>All 2025 books:</h2>
+          <h2 className={styles.allBooks}>All 2025 books:</h2>
           <div className={styles["books-container"]}>
             {books.map((book) => (
               <Book
