@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import BookForm from "./BookForm";
 import Book from "./Book";
 import styles from "./App.module.scss";
-import FiveStarBooks from "./FiveStarBooks";
+// import FiveStarBooks from "./FiveStarBooks";
 
 interface BookData {
   id: string;
@@ -18,7 +18,11 @@ const App = () => {
   const [editingBook, setEditingBook] = useState<BookData | null>(null);
   const pinnedBooks = books.filter((book) => book.isPinned);
   const unpinnedBooks = books.filter((book) => !book.isPinned);
-
+  const [ratingFilter, setRatingFilter] = useState<string>("All");
+  const filteredBooks = books.filter((book) => {
+    if (ratingFilter === "All") return true;
+    return Math.floor(Number(book.rating)) === Number(ratingFilter);
+  });
   const fetchBooks = async () => {
     const res = await fetch("http://localhost:4000/books");
     const data = await res.json();
@@ -105,10 +109,30 @@ const App = () => {
             ))}
           </div>
 
-          <FiveStarBooks books={books} onRemove={removeBook} />
+          {/* <FiveStarBooks books={books} onRemove={removeBook} /> */}
+          <label>
+            Filter by Rating:
+            <select
+              value={ratingFilter}
+              onChange={(e) => setRatingFilter(e.target.value)}
+            >
+              <option value="All">All</option>
+              <option value="5">5 Stars</option>
+              <option value="4">4 Stars</option>
+              <option value="3">3 Stars</option>
+              <option value="2">2 Stars</option>
+              <option value="1">1 Star</option>
+            </select>
+          </label>
           <h2 className={styles.allBooks}>All 2025 books:</h2>
+          <p>
+            Showing:{" "}
+            {ratingFilter === "All"
+              ? "All books"
+              : `${ratingFilter} star books`}
+          </p>
           <div className={styles["books-container"]}>
-            {books.map((book) => (
+            {filteredBooks.map((book) => (
               <Book
                 key={book.id}
                 {...book}

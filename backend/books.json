@@ -133,5 +133,19 @@
     "rating": "4",
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1718888180i/212262006.jpg",
     "id": "e237391a-a801-4bdd-ac64-b02d6d8bfe87"
+  },
+  {
+    "title": "Summer Camp for Slasher Victims",
+    "author": "Matthew Mercer",
+    "rating": "4",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1711138763i/210273657.jpg",
+    "id": "27dbeea4-caab-4e69-9908-b262fcc60131"
+  },
+  {
+    "title": "Home Is Where the Bodies Are",
+    "author": "Jeneva Rose",
+    "rating": "4",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1699642386i/194020321.jpg",
+    "id": "21d50bbf-2ed1-4f3e-bb28-8835ba56aeac"
   }
 ]

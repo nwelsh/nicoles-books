@@ -5,10 +5,9 @@
 - [x] favorites section
 - [x] cards background color: random
 - [x] favorited books (up to 3)
-- [ ] card hover state
 - [ ] color stylesheet/pallet
-- [ ] style 5 star books
 - [ ] add all data
+- [ ] filter by rating style
 
 sidebar
 - [x] Total count
