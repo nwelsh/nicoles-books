@@ -16,9 +16,10 @@ sidebar
 - [x] progress bar 
 - [x] add new book
 
-To run 
+To run locally
 Frontend: npm start
-backend: npm init -y
+
+backend: node server.js
 
 Frontend deployed here:
 https://nwelsh.github.io/nicoles-books/
