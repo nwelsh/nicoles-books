@@ -7,7 +7,7 @@
 - [x] favorited books (up to 3)
 - [ ] color stylesheet/pallet
 - [ ] add all data
-- [ ] filter by rating style
+- [x] filter by rating style
 
 sidebar
 - [x] Total count
