@@ -15,3 +15,7 @@ sidebar
 - [x] Year count 
 - [x] progress bar 
 - [x] add new book
+
+To run 
+Frontend: npm start
+backend: npm init -y
