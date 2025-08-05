@@ -82,12 +82,38 @@
 .allBooks {
   font-size: 24px;
   margin: 0;
-  margin-top: 2rem;
+  margin: 2rem 0 1rem 0;
 }
 
 .top-title {
   margin: 0;
   font-size: 24px;
+}
+
+.selector {
+  border-radius: 1rem;
+  padding: .25rem;
+  margin: .25rem;
+  background-color: rgb(250, 225, 241);
+  color: rgb(120, 2, 210);
+  border: 2px solid rgb(120, 2, 210);
+  transition: background-color 0.3s ease;
+  font-family: "Press Start 2P", monospace;
+  font-weight: 600;
+
+  &:hover {
+    background-color: rgb(120, 2, 210);
+    color: rgb(250, 225, 241);
+    border: 2px solid rgb(255, 3, 163);
+  }
+
+  &:focus, &:focus-visible {
+    border: 2px solid rgb(255, 3, 163);
+  }
+}
+
+.filter {
+  padding-top: 2rem;
 }
 
 .books-container,

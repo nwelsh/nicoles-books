@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import BookForm from "./BookForm";
 import Book from "./Book";
 import styles from "./App.module.scss";
-// import FiveStarBooks from "./FiveStarBooks";
 
 interface BookData {
   id: string;
@@ -108,13 +107,13 @@ const App = () => {
               />
             ))}
           </div>
-
-          {/* <FiveStarBooks books={books} onRemove={removeBook} /> */}
-          <label>
+          <h2 className={styles.allBooks}>All 2025 books:</h2>
+          <label className={styles.filter}>
             Filter by Rating:
             <select
               value={ratingFilter}
               onChange={(e) => setRatingFilter(e.target.value)}
+              className={styles.selector}
             >
               <option value="All">All</option>
               <option value="5">5 Stars</option>
@@ -124,13 +123,7 @@ const App = () => {
               <option value="1">1 Star</option>
             </select>
           </label>
-          <h2 className={styles.allBooks}>All 2025 books:</h2>
-          <p>
-            Showing:{" "}
-            {ratingFilter === "All"
-              ? "All books"
-              : `${ratingFilter} star books`}
-          </p>
+          
           <div className={styles["books-container"]}>
             {filteredBooks.map((book) => (
               <Book
