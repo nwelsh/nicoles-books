@@ -19,3 +19,6 @@ sidebar
 To run 
 Frontend: npm start
 backend: npm init -y
+
+Frontend deployed here:
+https://nwelsh.github.io/nicoles-books/
