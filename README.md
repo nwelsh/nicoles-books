@@ -16,6 +16,7 @@ backend: node server.js
 - [x] filter by rating style
 - [ ] color stylesheet/pallet
 - [ ] add all data
+- [ ] fix alignment of cards when 2
 
 sidebar
 - [x] Total count
