@@ -126,5 +126,12 @@
     "description": "",
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1677561297i/75634216.jpg",
     "id": "9956a43e-c613-48a5-b490-72ac14b15451"
+  },
+  {
+    "title": "My Time to Stand",
+    "author": "Gypsy-Rose Blanchard",
+    "rating": "4",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1718888180i/212262006.jpg",
+    "id": "e237391a-a801-4bdd-ac64-b02d6d8bfe87"
   }
 ]
