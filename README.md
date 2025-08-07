@@ -4,7 +4,9 @@ https://nwelsh.github.io/nicoles-books/
 To run locally
 Frontend: npm start
 
-backend: node server.js
+backend: node server.
+
+deploy: npm run deploy
 
 // TODO
 
