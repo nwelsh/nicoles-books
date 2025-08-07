@@ -16,9 +16,10 @@ deploy: npm run deploy
 - [x] cards background color: random
 - [x] favorited books (up to 3)
 - [x] filter by rating style
+- [x] fix alignment of cards when 2
 - [ ] color stylesheet/pallet
 - [ ] add all data
-- [ ] fix alignment of cards when 2
+- [ ] view all author?
 
 sidebar
 - [x] Total count

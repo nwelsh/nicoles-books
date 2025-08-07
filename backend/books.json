@@ -168,5 +168,124 @@
     "rating": "1",
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1718907017i/209455870.jpg",
     "id": "7e4579c1-eb62-4be0-a8e4-75cbe0239530"
+  },
+  {
+    "title": "The Girl In Question",
+    "author": "Tess Sharpe",
+    "rating": "2",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1716825424i/158403210.jpg",
+    "id": "14ff2b97-699f-4cb8-aacd-9493186a918e"
+  },
+  {
+    "title": "Not If I Save You First",
+    "author": "Ally Carter",
+    "rating": "2.5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1507647432i/35238072.jpg",
+    "id": "3002701d-a41b-4261-ad34-e519723cdc63"
+  },
+  {
+    "title": "The Night In Question",
+    "author": "Kathleen Glasgow",
+    "rating": "2",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1669984918i/62361548.jpg",
+    "id": "10796382-35c2-426e-bc38-b42c13e772fc"
+  },
+  {
+    "title": "The Graham Effect",
+    "author": "Elle Kennedy",
+    "rating": "2.5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1700730648i/123255391.jpg",
+    "id": "fcb2e242-098a-416a-93dc-e414d7053eb9"
+  },
+  {
+    "title": "My Vampire Plus-One",
+    "author": "Jenna Levine",
+    "rating": "2",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1710700010i/204640539.jpg",
+    "id": "848fdfa9-2a48-49d4-ae18-4501f188ce03"
+  },
+  {
+    "title": "Break to You",
+    "author": "Neal Shusterman",
+    "rating": "2",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1708737561i/196774354.jpg",
+    "id": "54d121a7-74d9-4382-a0fd-d47faf893106"
+  },
+  {
+    "title": "The Unknown",
+    "author": "J.W. Lynne",
+    "rating": "2",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1557875733i/45819832.jpg",
+    "id": "2c59c9b5-4bd9-4cc1-ac3e-f0d18c06a9de"
+  },
+  {
+    "title": "Deep End",
+    "author": "Ali Hazelwood",
+    "rating": "2",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1718998299i/212808709.jpg",
+    "id": "30edf7eb-da21-4620-8a9d-b2183b104a35"
+  },
+  {
+    "title": "Daydream",
+    "author": "Hannah Grace",
+    "rating": "2",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1749069286i/199798652.jpg",
+    "id": "e58cbe01-5732-4a0c-b00d-fdad6d1c2d73"
+  },
+  {
+    "title": "The Lost",
+    "author": "Natasha Prestion",
+    "rating": "2",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1539904842i/42366189.jpg",
+    "id": "ea1e439d-7b08-4901-b2e1-62e3981a0755"
+  },
+  {
+    "title": "You Bet Your Heart",
+    "author": "Danielle Parker",
+    "rating": "2",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1723079159i/62562943.jpg",
+    "id": "8106af28-287c-45db-9605-b0198647d5a8"
+  },
+  {
+    "title": "The Charlie Method",
+    "author": "Elle Kennedy",
+    "rating": "2",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1727290364i/212688557.jpg",
+    "id": "0563fbc4-5fa6-46b5-953f-e42a896d9a07"
+  },
+  {
+    "title": "Honeysuckle and Bone",
+    "author": "Trisha Tobias",
+    "rating": "2",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1725158239i/212203126.jpg",
+    "id": "4cb05b6e-fd99-4705-be6e-6a7be0e51b74"
+  },
+  {
+    "title": "The Agathas",
+    "author": "Kathleen Glasgow",
+    "rating": "2",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1668448608i/58985554.jpg",
+    "id": "6bd620af-8a54-43ab-a85e-d80797470a6a"
+  },
+  {
+    "title": "Wrong Place Wrong Time",
+    "author": "Gillian McAllister",
+    "rating": "2",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1659457434i/59947696.jpg",
+    "id": "cc811dab-6091-443d-a474-d3295a693801"
+  },
+  {
+    "title": "Last One To Die",
+    "author": "Cynthia Murphy",
+    "rating": "2",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1601981398i/55579526.jpg",
+    "id": "7a48ea17-f914-4f75-9973-b8cfbafb543e"
+  },
+  {
+    "title": "Happy Place ",
+    "author": "Emily Henry",
+    "rating": "5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1660145160i/61718053.jpg",
+    "id": "59f1193e-25db-4ae2-907a-20e8eb35b888"
   }
 ]
