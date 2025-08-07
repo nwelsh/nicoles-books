@@ -154,5 +154,19 @@
     "rating": "3.5",
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1744295011i/231249727.jpg",
     "id": "a10a952f-5343-4960-a0a8-5b77dcfc93a9"
+  },
+  {
+    "title": "Win Lose Kill Die",
+    "author": "Cynthia Murphy",
+    "rating": "1",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1632900886i/59112905.jpg",
+    "id": "010ce3fe-a461-423d-b4da-6f201cea50a4"
+  },
+  {
+    "title": "The Party ",
+    "author": "Natasha Preston",
+    "rating": "1",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1718907017i/209455870.jpg",
+    "id": "7e4579c1-eb62-4be0-a8e4-75cbe0239530"
   }
 ]
