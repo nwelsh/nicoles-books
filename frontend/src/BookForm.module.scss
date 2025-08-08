@@ -1,3 +1,5 @@
+@import "./styles/colors";
+
 .form {
   display: flex;
   flex-direction: column;
@@ -7,17 +9,16 @@
 .input,
 .textarea {
   padding: 0.5rem;
-  border: 1px solid rgb(93, 24, 243);
+  border: 1px solid var(--colors__bright-purple);
   border-radius: 4px;
   font-size: 1rem;
 }
 
 .button {
   width: fit-content;
-  background-color: #e600f6;
-  color: rgb(255, 241, 241);
+  color: var(--colors__dark-purple);
   font-weight: 700;
-  border: none;
+  border: 2px solid var(--colors__dark-purple);
   padding: 0.5rem 1.25rem;
   border-radius: 1rem;
   cursor: pointer;
@@ -25,5 +26,5 @@
 }
 
 .button:hover {
-  background-color: #003369;
+  background-color: var(--colors__background-blue);
 }

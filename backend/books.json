@@ -7,7 +7,7 @@
     "description": "",
     "imageUrl": "https://m.media-amazon.com/images/I/71FvtJvTkRL.jpg",
     "pinned": true,
-    "isPinned": true
+    "isPinned": false
   },
   {
     "title": "The Summer I turned Pretty",
@@ -17,7 +17,7 @@
     "imageUrl": "https://m.media-amazon.com/images/I/71j25Ib5FSL.jpg",
     "id": "c07d2910-e35d-4e54-897b-f0a138e82e71",
     "pinned": true,
-    "isPinned": true
+    "isPinned": false
   },
   {
     "title": "The Butcher Game",
@@ -61,7 +61,7 @@
     "description": "",
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1558858485i/378.jpg",
     "id": "4fce13d8-b38a-48d5-92fa-7891302e816c",
-    "isPinned": true
+    "isPinned": false
   },
   {
     "title": "My Return to the Walter Boys",
@@ -126,20 +126,6 @@
     "description": "",
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1677561297i/75634216.jpg",
     "id": "9956a43e-c613-48a5-b490-72ac14b15451"
-  },
-  {
-    "title": "My Time to Stand",
-    "author": "Gypsy-Rose Blanchard",
-    "rating": "4",
-    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1718888180i/212262006.jpg",
-    "id": "e237391a-a801-4bdd-ac64-b02d6d8bfe87"
-  },
-  {
-    "title": "Summer Camp for Slasher Victims",
-    "author": "Matthew Mercer",
-    "rating": "4",
-    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1711138763i/210273657.jpg",
-    "id": "27dbeea4-caab-4e69-9908-b262fcc60131"
   },
   {
     "title": "Home Is Where the Bodies Are",
@@ -286,6 +272,158 @@
     "author": "Emily Henry",
     "rating": "5",
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1660145160i/61718053.jpg",
-    "id": "59f1193e-25db-4ae2-907a-20e8eb35b888"
+    "id": "59f1193e-25db-4ae2-907a-20e8eb35b888",
+    "isPinned": false
+  },
+  {
+    "title": "Not Quite Dead Yet",
+    "author": "Holly Jackson",
+    "rating": "5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1739418770i/220223963.jpg",
+    "id": "fa628546-e544-4aa5-9864-13d7eb9fa7be",
+    "isPinned": false
+  },
+  {
+    "title": "My Time to Stand",
+    "author": "Gypsy-Rose Blanchard",
+    "rating": "3.5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1718888180i/212262006._SX600_.jpg",
+    "id": "f588629c-bf87-4a85-a6a3-5b8c5dad20c6"
+  },
+  {
+    "title": "Summer Camp for Slasher Victims",
+    "author": "Matthew Mercer",
+    "rating": "3.5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1711138763i/210273657._SX600_.jpg",
+    "id": "e407b2ae-6e24-457f-b943-4e954a9a8517"
+  },
+  {
+    "title": "The Midnight Game",
+    "author": "Cynthia Murphy",
+    "rating": "4",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1668939418i/63360212._SX600_.jpg",
+    "id": "503900e9-618e-42f8-9f8a-39ca8b83fe21"
+  },
+  {
+    "title": "No Place Left to Hide",
+    "author": "Megan Lally",
+    "rating": "3",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1714008080i/209823376._SX600_.jpg",
+    "id": "4f94ac3f-35a8-4918-950d-f94824635df8"
+  },
+  {
+    "title": "Win Lose Kill Die",
+    "author": "Cynthia Murphy",
+    "rating": "3",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1632900886i/59112905._SX600_.jpg",
+    "id": "6146e724-4545-4d49-b89d-28b3a49fff38"
+  },
+  {
+    "title": "Death Row",
+    "author": "Freida McFadden",
+    "rating": "4.5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1743525823i/230824619._SX600_.jpg",
+    "id": "6de6d612-a933-4670-85fa-cbb9772dd288"
+  },
+  {
+    "title": "That's Not My Name",
+    "author": "Megan Lally",
+    "rating": "3.5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1717940704i/123429195._SX600_.jpg",
+    "id": "e84a9786-898c-4fdc-be88-e3a7a40e5aa1"
+  },
+  {
+    "title": "Signed Sealed Dead",
+    "author": "Cynthia Murphy",
+    "rating": "4",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1688034559i/181736590._SX600_.jpg",
+    "id": "471cc854-75a4-486c-b91e-61cb532876ed"
+  },
+  {
+    "title": "My Last Summer with Cass",
+    "author": "Mark Crilley",
+    "rating": "3.5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1607320128i/55102443.jpg",
+    "id": "6c2a205f-6224-4a16-b40c-20aaaed258a1"
+  },
+  {
+    "title": "How to Make Friends with the Dark",
+    "author": "Kathleen Glasgow",
+    "rating": "4.5",
+    "imageUrl": "https://m.media-amazon.com/images/I/81y1JQV04fL.jpg",
+    "id": "71b3a0f8-602d-4da6-bbf0-6311acd93877"
+  },
+  {
+    "title": "Twelve Years a Slave",
+    "author": "Solomon Northup",
+    "rating": "5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1378793462i/18478222.jpg",
+    "id": "91dbd3ec-38e6-46a8-9b5f-1bc78f273766"
+  },
+  {
+    "title": "Murray Out of Water",
+    "author": "Taylor Tracy",
+    "rating": "4.5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1702870199i/197448742.jpg",
+    "id": "a759a3d8-4ac7-4de9-b3ef-aab7b4621f15",
+    "isPinned": true
+  },
+  {
+    "title": "Welcome to Camp Killer ",
+    "author": "Cynthia Murphy",
+    "rating": "4.5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1691172107i/123187801.jpg",
+    "id": "fa483435-c5a0-4d7f-a630-d0e5e7a677c2"
+  },
+  {
+    "title": "Wrong Place Wrong Time",
+    "author": "Gillian McAllister",
+    "rating": "3",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1659457434i/59947696.jpg",
+    "id": "9a331c4b-794c-4847-976b-34ac6cb37640"
+  },
+  {
+    "title": "Ain't Burned All the Bright",
+    "author": "Jason Reynolds",
+    "rating": "3.5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1679079401i/58437699.jpg",
+    "id": "516d2b5c-f1bf-4e5a-9089-1798294ab13d"
+  },
+  {
+    "title": "The Comeback Summer",
+    "author": "Ali Brady",
+    "rating": "5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1675086136i/62926953.jpg",
+    "id": "feb5e350-772e-4b5d-b214-61a74e28eb80",
+    "isPinned": true
+  },
+  {
+    "title": "Deep and Dark and Dangerous",
+    "author": "Mary Downing Hahn",
+    "rating": "5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348351238i/541341.jpg",
+    "id": "46a60ab0-d88b-4be7-977d-ef20eee29682",
+    "isPinned": true
+  },
+  {
+    "title": "Raised by a Serial Killer",
+    "author": "April Balascio",
+    "rating": "4",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1710377557i/207294155.jpg",
+    "id": "7aa4429b-c1e9-4b4d-ba85-309d8f2ee01f"
+  },
+  {
+    "title": "The Life we Bury",
+    "author": "Joe Talbert",
+    "rating": "4.5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1437077793i/20758175.jpg",
+    "id": "6d775c61-5463-46c6-8d8d-e1c828a208e9"
+  },
+  {
+    "title": "Relasing 10",
+    "author": "Chloe Walsh",
+    "rating": "5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1745299737i/229717312.jpg",
+    "id": "1b009a4c-cb7f-4a46-8cb7-4ff305280835"
   }
 ]

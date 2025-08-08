@@ -19,7 +19,6 @@ deploy: npm run deploy
 - [x] fix alignment of cards when 2
 - [ ] color stylesheet/pallet
 - [ ] add all data
-- [ ] view all author?
 
 sidebar
 - [x] Total count

@@ -95,7 +95,7 @@ const App = () => {
           </div>
         </div>
         <div className={styles.mainSection}>
-          <h2 className={styles["top-title"]}>2025 top 3:</h2>
+          <h2 className={styles["top-title"]}>Current top 3: Summer, Swimming, Beach</h2>
           <div className={styles.pinnedSection}>
             {pinnedBooks.map((book) => (
               <Book

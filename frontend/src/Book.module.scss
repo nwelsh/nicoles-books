@@ -42,7 +42,7 @@
   transition: color 0.3s ease;
 
   &:hover {
-    color: red;
+    color: rgb(255, 35, 35);
   }
 }
 
@@ -73,6 +73,7 @@
 }
 
 .pinned {
+  transition: fill 0.3s ease;
   fill: rgb(255, 0, 166);
 
   &:hover {
@@ -81,6 +82,8 @@
 }
 
 .unpinned {
+  transition: fill 0.3s ease;
+
   &:hover {
     fill: rgb(255, 0, 166);
   }
