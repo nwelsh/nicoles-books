@@ -1,5 +1,7 @@
+@import './styles/colors';
+
 .card {
-  border: 2px solid rgb(20, 2, 56);
+  border: 2px solid var(--colors__dark-blue);
   padding: 1rem;
   margin: 1rem 0;
   border-radius: 0.5rem;
@@ -15,7 +17,7 @@
   }
 
   &:hover {
-    background-color: black;
+    background-color: var(--colors__black);
   }
 }
 
@@ -26,23 +28,23 @@
 
 .author {
   margin: 0;
-  color: rgb(0, 29, 71);
+  color: var(--colors__navy-blue);
   font-size: 0.75rem;
 }
 
 .stars {
   margin: 0;
-  color: rgb(0, 16, 236);
+  color: var(--colors__bright-blue);
   font-size: 1.25rem;
 }
 
 .button {
-  color: rgb(17, 12, 55);
+  color: var(--colors__dark-blue);
   cursor: pointer;
   transition: color 0.3s ease;
 
   &:hover {
-    color: rgb(255, 35, 35);
+    color: var(--colors__alert-red);
   }
 }
 
@@ -50,7 +52,7 @@
   max-width: 100%;
   height: 300px;
   object-fit: fill;
-  border: 2px solid rgb(10, 0, 31);
+  border: 2px solid var(--colors__dark-blue);
   border-radius: 0.5rem;
   margin-bottom: 1rem;
 
@@ -74,10 +76,10 @@
 
 .pinned {
   transition: fill 0.3s ease;
-  fill: rgb(255, 0, 166);
+  fill: var(--colors__hot-pink);
 
   &:hover {
-    fill: red;
+    fill: var(--colors__alert-red);
   }
 }
 
@@ -85,6 +87,6 @@
   transition: fill 0.3s ease;
 
   &:hover {
-    fill: rgb(255, 0, 166);
+    fill: var(--colors__hot-pink);
   }
 }

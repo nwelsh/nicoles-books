@@ -1,11 +1,13 @@
+@import './styles/colors';
+
 .main {
   margin: 0;
   padding: 2rem;
   font-family: "Press Start 2P", monospace;
   display: flex;
   flex-direction: column;
-  background: rgb(241, 234, 237);
-  color: rgb(71, 1, 126);
+  background: var(--colors__background);
+  color: var(--colors__dark-purple);
 }
 
 .container {
@@ -32,8 +34,8 @@
 
 .stats,
 .bookContainer {
-  border: 2px solid rgb(120, 2, 210);
-  background: rgb(250, 225, 241);
+  border: 2px solid var(--colors__dark-purple);
+  background: var(--colors__light-purple);
   border-radius: 1rem;
   padding: 1rem;
   display: flex;
@@ -48,7 +50,7 @@
 
 .progressWrapper {
   width: 100%;
-  background-color: rgb(223, 195, 195);
+  background-color: var(--colors__light-gray);
   border-radius: 10px;
   height: 16px;
   margin-top: 0.5rem;
@@ -57,7 +59,7 @@
 
 .progressBar {
   height: 100%;
-  background-color: #e600f6;
+  background-color: var(--colors__hot-pink);
   transition: width 0.3s ease;
 }
 
@@ -94,20 +96,20 @@
   border-radius: 1rem;
   padding: .25rem;
   margin: .25rem;
-  background-color: rgb(250, 225, 241);
-  color: rgb(120, 2, 210);
-  border: 2px solid rgb(120, 2, 210);
+  background-color: var(--colors__background);
+  color: var(--colors__dark-purple);
+  border: 2px solid var(--colors__dark-purple);
   transition: background-color 0.3s ease;
   font-family: "Press Start 2P", monospace;
   font-weight: 600;
 
   &:hover {
-    background-color: #003369;
-    color: rgb(255, 195, 233);
+    background-color: var(--colors__background-blue);
+    color: var(--colors__light-purple);
   }
 
   &:focus, &:focus-visible {
-    border: 2px solid rgb(255, 3, 163);
+    border: 2px solid var(--colors__hot-pink);
   }
 }
 

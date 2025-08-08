@@ -17,6 +17,7 @@
 .button {
   width: fit-content;
   color: var(--colors__dark-purple);
+  background-color: var(--colors__light-pink);
   font-weight: 700;
   border: 2px solid var(--colors__dark-purple);
   padding: 0.5rem 1.25rem;
@@ -27,4 +28,5 @@
 
 .button:hover {
   background-color: var(--colors__background-blue);
+  color: var(--colors__light-purple);
 }
