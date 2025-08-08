@@ -17,7 +17,8 @@ deploy: npm run deploy
 - [x] favorited books (up to 3)
 - [x] filter by rating style
 - [x] fix alignment of cards when 2
-- [ ] color stylesheet/pallet
+- [x] color stylesheet
+- [ ] create color pallet for book cards
 - [ ] add all data
 
 sidebar
