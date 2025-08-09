@@ -1,4 +1,4 @@
-@import './styles/colors';
+@import "./styles/colors";
 
 .main {
   margin: 0;
@@ -94,8 +94,8 @@
 
 .selector {
   border-radius: 1rem;
-  padding: .25rem;
-  margin: .25rem;
+  padding: 0.25rem;
+  margin: 0.25rem;
   background-color: var(--colors__background);
   color: var(--colors__dark-purple);
   border: 2px solid var(--colors__dark-purple);
@@ -108,7 +108,8 @@
     color: var(--colors__light-purple);
   }
 
-  &:focus, &:focus-visible {
+  &:focus,
+  &:focus-visible {
     border: 2px solid var(--colors__hot-pink);
   }
 }
