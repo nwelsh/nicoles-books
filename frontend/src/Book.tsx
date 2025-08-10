@@ -17,17 +17,20 @@ export interface BookProps {
 
 const getRandomColor = () => {
   const pastelColors = [
-    "#FFCDD2",
-    "#F8BBD0",
-    "#E1BEE7",
-    "#D1C4E9",
-    "#C5CAE9",
-    "#BBDEFB",
-    "#B2EBF2",
-    "#C8E6C9",
-    "#FFF9C4",
-    "#FFE0B2",
-    "#FFCCBC",
+    "#EDC55C",
+    '#EDB35C',
+    '#EDB35C',
+    '#EFA2EB',
+    '#E2D8F2',
+    '#F0A9A3',
+    '#F0BDED',
+    '#9DF0D1',
+    '#90D4F0',
+    '#90B6F0',
+    '#D0F0EF',
+    '#CDF090',
+    '#F2ECC4',
+    '#E4F0D0'
   ];
   return pastelColors[Math.floor(Math.random() * pastelColors.length)];
 };
