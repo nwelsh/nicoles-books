@@ -481,5 +481,187 @@
     "rating": "4",
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1708004345i/207571151.jpg",
     "id": "0e38bf7a-cf1a-47ec-88d0-916b699f69a5"
+  },
+  {
+    "title": "Love, Mom",
+    "author": "Iliana Xander",
+    "rating": "5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1729890029i/220838350.jpg",
+    "id": "a9009119-4725-4732-97fd-08b7043018bf"
+  },
+  {
+    "title": "We Did Nothing Wrong",
+    "author": "Hannah Jayne",
+    "rating": "4",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1718878121i/208503337.jpg",
+    "id": "28adb6f2-b05a-4eb1-8aab-8907b19376d5"
+  },
+  {
+    "title": "The Lost",
+    "author": "Natasha Preston",
+    "rating": "3",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1539904842i/42366189.jpg",
+    "id": "f2d8080a-564b-4429-9032-e7971a94151b"
+  },
+  {
+    "title": "Just for the Summer",
+    "author": "Abby Jimenez",
+    "rating": "5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1742475239i/195820807.jpg",
+    "id": "6bf5de4f-1d22-4f11-9c6a-96b768fb9646"
+  },
+  {
+    "title": "What We Saw",
+    "author": "Mary Downing Hahn",
+    "rating": "4.5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1649028945i/60017785.jpg",
+    "id": "706b6992-7da5-4943-bd8c-95e92eddf1f9"
+  },
+  {
+    "title": "The Glass Girl",
+    "author": "Kathleen Glasglow",
+    "rating": "5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1713193573i/208430624.jpg",
+    "id": "ff508e30-66be-4828-bf2e-168d3809aa2b"
+  },
+  {
+    "title": "Here We Go Again",
+    "author": "Alison Cochrun",
+    "rating": "4",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1687105656i/176443353.jpg",
+    "id": "e7aa653c-9593-41b1-94ba-6807387c1221"
+  },
+  {
+    "title": "If You Tell",
+    "author": "Gregg Olsen",
+    "rating": "4.5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1556171767i/45299992.jpg",
+    "id": "af4ee50f-b0ce-48f4-97d1-9842ed66a4cf"
+  },
+  {
+    "title": "The Legacy",
+    "author": "Elle Kennedy",
+    "rating": "3.5",
+    "imageUrl": "https://m.media-amazon.com/images/I/81mqCW2UeLL._UF1000,1000_QL80_.jpg",
+    "id": "e2f30fe5-4f44-4347-9c85-e9f044b90198"
+  },
+  {
+    "title": "The Goal",
+    "author": "Elle Kennedy",
+    "rating": "4",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3JAEJHPhskrI4UEoGqXObLmtjuzrEljf-Vg&s",
+    "id": "65688bf3-6f39-4cc2-8b9c-bd33175ad51e"
+  },
+  {
+    "title": "The Score",
+    "author": "Elle Kennedy",
+    "rating": "4",
+    "imageUrl": "https://m.media-amazon.com/images/I/818YxxVigRL._UF1000,1000_QL80_.jpg",
+    "id": "9706b0de-d7a0-4ace-ba16-bef1059605d2"
+  },
+  {
+    "title": "The Mistake",
+    "author": "Elle Kennedy",
+    "rating": "4",
+    "imageUrl": "https://m.media-amazon.com/images/I/81x+87vXTZL.jpg",
+    "id": "bd4ade07-ff20-4129-b45f-9a478226e6b0"
+  },
+  {
+    "title": "Break to You",
+    "author": "Neal Shusterman",
+    "rating": "3",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1708737561i/196774354.jpg",
+    "id": "b4619f2f-fbba-44c3-9446-33a49fd1adf7"
+  },
+  {
+    "title": "The Deal",
+    "author": "Elle Kennedy",
+    "rating": "4",
+    "imageUrl": "https://m.media-amazon.com/images/I/81GdmnTDtyL._UF1000,1000_QL80_.jpg",
+    "id": "ae18a7cf-af38-402c-a923-dfd065bab2bd"
+  },
+  {
+    "title": "The Benefits of Being an Octopus",
+    "author": "Ann Braden",
+    "rating": "5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1522849548i/35890044.jpg",
+    "id": "71cbbbe0-2796-408f-9709-59d93152a38a"
+  },
+  {
+    "title": "The Boy In The Photo",
+    "author": "Nicole Trope",
+    "rating": "4",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1554322795i/44779433.jpg",
+    "id": "e3c59169-b07f-4b8a-8bd9-ef7d381bc72b"
+  },
+  {
+    "title": "Meet Cute Library",
+    "author": "Emery Lee",
+    "rating": "4",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1601312585i/53180089.jpg",
+    "id": "7e7f2aae-fa47-4743-9529-16c7b8f1204e"
+  },
+  {
+    "title": "The Haunting ",
+    "author": "Natasha Preston",
+    "rating": "4",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1687766628i/75495009.jpg",
+    "id": "2c40508d-a2cc-4797-a6cf-0a882192091c"
+  },
+  {
+    "title": "You Shouldn't Have Come Here",
+    "author": "Jeneva Rose",
+    "rating": "5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1666310687i/61458888.jpg",
+    "id": "41666082-e749-4458-a81e-5f2157b412ad"
+  },
+  {
+    "title": "A Wrinkle In Time",
+    "author": "Hope Larson",
+    "rating": "3",
+    "imageUrl": "https://m.media-amazon.com/images/I/81oqdz4hkeL._UF1000,1000_QL80_.jpg",
+    "id": "32a911f2-3b08-4fa7-858d-9b43adfed754"
+  },
+  {
+    "title": "Sunrise Nights",
+    "author": "Jeff Zentner",
+    "rating": "4",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1715022119i/198530978.jpg",
+    "id": "037fa99b-9e2d-4675-8908-24fca6e73b55"
+  },
+  {
+    "title": "Perfect on Paper",
+    "author": "Sophie Gonzalez",
+    "rating": "4",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1607324016i/49204960.jpg",
+    "id": "84db252d-0a5f-4f5b-b09a-e797cbf0399f"
+  },
+  {
+    "title": "Rayne and Delilah's Midnight Matinee",
+    "author": "Jeff Zentner",
+    "rating": "5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1531317720i/40645629.jpg",
+    "id": "e2ad3954-7724-4274-86d0-d3004c3fe42e"
+  },
+  {
+    "title": "The Girl in Question",
+    "author": "Tess Sharpe",
+    "rating": "3",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1716825424i/158403210.jpg",
+    "id": "2c95ad1f-8cc4-40a3-8813-ebfa8961d843"
+  },
+  {
+    "title": "Never Ever Getting Back Together",
+    "author": "Sophie Gonzalez",
+    "rating": "5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1643645196i/59808187.jpg",
+    "id": "698ff806-7e54-48a9-8cd5-d82b415cf024"
+  },
+  {
+    "title": "This is Why They Hate Us",
+    "author": "Aaron Aceves",
+    "rating": "3",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1623934287i/53241064.jpg",
+    "id": "21d073ec-dd56-4aa2-af76-a9412a9ee63e"
   }
 ]
