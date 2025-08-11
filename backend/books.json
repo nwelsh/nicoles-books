@@ -663,5 +663,12 @@
     "rating": "3",
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1623934287i/53241064.jpg",
     "id": "21d073ec-dd56-4aa2-af76-a9412a9ee63e"
+  },
+  {
+    "title": "The Summer We Fell",
+    "author": "Elizabeth O'roark",
+    "rating": "4.5",
+    "imageUrl": "https://m.media-amazon.com/images/I/91IQYeRKaLL._UF1000,1000_QL80_.jpg",
+    "id": "219e203d-82e8-476f-a768-026d371cac7f"
   }
 ]
