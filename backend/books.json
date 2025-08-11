@@ -425,5 +425,61 @@
     "rating": "5",
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1745299737i/229717312.jpg",
     "id": "1b009a4c-cb7f-4a46-8cb7-4ff305280835"
+  },
+  {
+    "title": "The Orphanage By The Lake",
+    "author": "Daniel G. Miller",
+    "rating": "4.5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1700048053i/202173601.jpg",
+    "id": "f98c2dc7-0be2-4ce8-a27a-46ffbdda02b4"
+  },
+  {
+    "title": "README.txt",
+    "author": "Chelsea Manning",
+    "rating": "5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1656312637i/45734815.jpg",
+    "id": "da62f635-fe88-4e5d-8ed0-869cc418c071"
+  },
+  {
+    "title": "Throwback ",
+    "author": "Maureen Goo",
+    "rating": "4.5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1667955500i/59642596.jpg",
+    "id": "3465810a-b2d5-46bd-a157-0f399f90530d"
+  },
+  {
+    "title": "The Dixon Rule",
+    "author": "Elle Kennedy",
+    "rating": "3.5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1707561328i/200338241.jpg",
+    "id": "f6e7110c-9b58-4d15-b620-c63c25bc4f0a"
+  },
+  {
+    "title": "The Help",
+    "author": "Kathryn Stockett",
+    "rating": "4.5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1622355533i/4667024.jpg",
+    "id": "328a5075-8955-4b66-a7c0-7c9cb5b13c93"
+  },
+  {
+    "title": "The Dare",
+    "author": "Natasha Preston",
+    "rating": "3",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1697786308i/174146809.jpg",
+    "id": "6e31da0d-4180-4d69-b465-d483c692ec6a"
+  },
+  {
+    "title": "Verity",
+    "author": "Colleen Hoover",
+    "rating": "4",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1634158558i/59344312.jpg",
+    "id": "dc2326ed-aadb-4da1-8436-ebec5e02075c"
+  },
+  {
+    "title": "The Lake of Lost Girls",
+    "author": "Katherine Greene",
+    "rating": "4",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1708004345i/207571151.jpg",
+    "id": "0e38bf7a-cf1a-47ec-88d0-916b699f69a5"
   }
 ]

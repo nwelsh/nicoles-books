@@ -18,7 +18,7 @@ deploy: npm run deploy
 - [x] filter by rating style
 - [x] fix alignment of cards when 2
 - [x] color stylesheet
-- [ ] create color pallet for book cards
+- [x] create color pallet for book cards
 - [ ] add all data
 
 sidebar
