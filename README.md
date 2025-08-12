@@ -4,7 +4,7 @@ https://nwelsh.github.io/nicoles-books/
 To run locally
 Frontend: npm start
 
-backend: node server.
+backend: node server
 
 deploy: npm run deploy
 
@@ -25,7 +25,8 @@ sidebar
 
 
 code
-- [x] deploy
+- [x] deploy frontend
+- [ ] deploy backend
 - [x] mobile version
 - [x] color stylesheet
 - [x] add all data
