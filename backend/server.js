@@ -13,6 +13,7 @@ const DB_FILE = "books.json";
 // Read all books
 app.get("/books", (req, res) => {
   const data = JSON.parse(fs.readFileSync(DB_FILE, "utf8"));
+  res.send("Backend is running 🚀");
   res.json(data);
 });
 
