@@ -23,12 +23,12 @@ const App = () => {
     return Math.floor(Number(book.rating)) === Number(ratingFilter);
   });
   const fetchBooks = async () => {
-    const res = await fetch("https://nicoles-books.onrender.com/books");
+    const res = await fetch("http://localhost:4000/books");
     const data = await res.json();
     setBooks(data);
   };
   const removeBook = async (id: string) => {
-    const response = await fetch(`https://nicoles-books.onrender.com/books/${id}`, {
+    const response = await fetch(`http://localhost:4000/books/${id}`, {
       method: "DELETE",
     });
 
@@ -56,7 +56,7 @@ const App = () => {
 
     const updatedBook = { ...book, isPinned: !book.isPinned };
 
-    await fetch(`https://nicoles-books.onrender.com/books/${id}`, {
+    await fetch(`http://localhost:4000/books/${id}`, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(updatedBook),
