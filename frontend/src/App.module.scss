@@ -121,7 +121,7 @@
 .books-container,
 .pinnedSection {
   display: flex;
-  gap: 1.5rem;
+  column-gap: 1.5rem;
   flex-wrap: wrap;
   justify-content: flex-start;
   width: 100%;

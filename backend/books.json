@@ -395,7 +395,7 @@
     "rating": "5",
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1675086136i/62926953.jpg",
     "id": "feb5e350-772e-4b5d-b214-61a74e28eb80",
-    "isPinned": true
+    "isPinned": false
   },
   {
     "title": "Deep and Dark and Dangerous",
@@ -683,6 +683,7 @@
     "author": "E. Lockhart",
     "rating": "4.5",
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1402749479i/16143347.jpg",
-    "id": "c28b6960-a51e-4d37-b0b7-8ab7b7bd41ee"
+    "id": "c28b6960-a51e-4d37-b0b7-8ab7b7bd41ee",
+    "isPinned": true
   }
 ]
