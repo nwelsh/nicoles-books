@@ -677,5 +677,12 @@
     "rating": "4.5",
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1739949054i/227777201.jpg",
     "id": "b17d21ac-1be2-4299-bcd2-e7d1c59de845"
+  },
+  {
+    "title": "We Were Liars",
+    "author": "E. Lockhart",
+    "rating": "4.5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1402749479i/16143347.jpg",
+    "id": "c28b6960-a51e-4d37-b0b7-8ab7b7bd41ee"
   }
 ]
