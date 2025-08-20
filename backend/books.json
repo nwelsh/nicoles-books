@@ -685,5 +685,19 @@
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1402749479i/16143347.jpg",
     "id": "c28b6960-a51e-4d37-b0b7-8ab7b7bd41ee",
     "isPinned": true
+  },
+  {
+    "title": "Ride Or Die",
+    "author": "Delilah S. Dawson",
+    "rating": "4",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1734338928i/221251867.jpg",
+    "id": "cc4866ea-c38b-404e-8f8a-a60cc045018b"
+  },
+  {
+    "title": "The Summer I Saved You",
+    "author": "Elizabeth O'Roark",
+    "rating": "4.5",
+    "imageUrl": "https://m.media-amazon.com/images/I/91UxfySyzYL._UF1000,1000_QL80_.jpg",
+    "id": "05a1f07c-510c-4f76-8c21-171ec2d354b5"
   }
 ]
