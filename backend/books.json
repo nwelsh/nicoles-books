@@ -699,5 +699,19 @@
     "rating": "4.5",
     "imageUrl": "https://m.media-amazon.com/images/I/91UxfySyzYL._UF1000,1000_QL80_.jpg",
     "id": "05a1f07c-510c-4f76-8c21-171ec2d354b5"
+  },
+  {
+    "title": "Maren Stoffels",
+    "author": "Stranger Danger",
+    "rating": "4.5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1667852321i/62562989.jpg",
+    "id": "d3866aba-0408-4768-97e3-154f0f70e4e1"
+  },
+  {
+    "title": "The Beauty That Remains",
+    "author": "Ashley Woodfolk",
+    "rating": "2.5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1498069616i/29736467.jpg",
+    "id": "e33ab17b-e823-4782-a1d1-2ebf05305344"
   }
 ]
