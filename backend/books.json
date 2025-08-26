@@ -713,5 +713,12 @@
     "rating": "2.5",
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1498069616i/29736467.jpg",
     "id": "e33ab17b-e823-4782-a1d1-2ebf05305344"
+  },
+  {
+    "title": "Melissa",
+    "author": "Alex Gino",
+    "rating": "5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1668272142i/40948486.jpg",
+    "id": "d124b2e3-616f-42cf-a2c2-478c2b1b509b"
   }
 ]
