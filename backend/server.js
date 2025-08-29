@@ -2,13 +2,27 @@ const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const fs = require("fs");
+const path = require("path");
+
 const app = express();
 const PORT = process.env.PORT || 4000;
 
+// Middleware
 app.use(cors());
 app.use(bodyParser.json());
 
-const DB_FILE = "books.json";
+// Database file
+const DB_FILE = path.join(__dirname, "books.json");
+
+// Ensure books.json exists
+if (!fs.existsSync(DB_FILE)) {
+  fs.writeFileSync(DB_FILE, "[]"); // start with empty array
+}
+
+// Root route (handy for Render health check)
+app.get("/", (req, res) => {
+  res.send("Backend is running! Try /books");
+});
 
 // Read all books
 app.get("/books", (req, res) => {
@@ -40,39 +54,24 @@ app.delete("/books/:id", (req, res) => {
   }
 });
 
+// Update book by ID
 app.put("/books/:id", (req, res) => {
-    const id = req.params.id;
-    const updatedBook = req.body;
-    let data = JSON.parse(fs.readFileSync(DB_FILE, "utf8"));
-    const index = data.findIndex(book => book.id === id);
-  
-    if (index !== -1) {
-      data[index] = { ...data[index], ...updatedBook, id }; // ensure id stays same
-      fs.writeFileSync(DB_FILE, JSON.stringify(data, null, 2));
-      res.status(200).json(data[index]);
-    } else {
-      res.status(404).json({ error: "Book not found" });
-    }
-  });
+  const id = req.params.id;
+  const updatedBook = req.body;
 
-  app.put("/books/:id", (req, res) => {
-    const id = req.params.id;
-    const updatedBook = req.body;
-  
-    const data = JSON.parse(fs.readFileSync(DB_FILE, "utf8"));
-    const index = data.findIndex(book => book.id === id);
-  
-    if (index !== -1) {
-      data[index] = { ...data[index], ...updatedBook };
-      fs.writeFileSync(DB_FILE, JSON.stringify(data, null, 2));
-      res.json(data[index]);
-    } else {
-      res.status(404).json({ error: "Book not found" });
-    }
-  });
-  
+  const data = JSON.parse(fs.readFileSync(DB_FILE, "utf8"));
+  const index = data.findIndex((book) => book.id === id);
 
-// Start the server
+  if (index !== -1) {
+    data[index] = { ...data[index], ...updatedBook, id }; // keep same ID
+    fs.writeFileSync(DB_FILE, JSON.stringify(data, null, 2));
+    res.json(data[index]);
+  } else {
+    res.status(404).json({ error: "Book not found" });
+  }
+});
+
+// Start server
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
