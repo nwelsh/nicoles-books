@@ -96,7 +96,7 @@ const App = () => {
         </div>
         <div className={styles.mainSection}>
           <h2 className={styles["top-title"]}>
-            Current top 3: Fall!
+            Current top 3: Test
           </h2>
           <div className={styles.pinnedSection}>
             {pinnedBooks.map((book) => (
