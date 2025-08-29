@@ -31,3 +31,5 @@ code
 - [x] color stylesheet
 - [x] add all data
 
+deploy backend (with Railway)
+- 
