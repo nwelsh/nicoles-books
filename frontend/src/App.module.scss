@@ -6,8 +6,15 @@
   font-family: "Press Start 2P", monospace;
   display: flex;
   flex-direction: column;
-  background: var(--colors__background);
+  background-color: var(--colors__background);
   color: var(--colors__dark-purple);
+  min-height: 100vh;
+}
+
+.loadingScreen {
+  text-align: center;
+  background-color: var(--colors__background);
+  margin-top: 2rem;
 }
 
 .container {
