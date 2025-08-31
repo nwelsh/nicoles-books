@@ -83,6 +83,7 @@ const App = () => {
         <div className={styles.loadingScreen}>
           <div className={styles.spinner}></div>
           <p>Loading book data...</p>
+          <p>This takes a second on start up.</p>
         </div>
       ) : (
         <div className={styles.container}>
