@@ -6,7 +6,7 @@ Frontend: npm start
 
 backend: node server
 
-deploy: npm run deploy
+deploy(from frontend): npm run deploy
 
 // TODO:
 
