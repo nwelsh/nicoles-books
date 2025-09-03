@@ -720,5 +720,26 @@
     "rating": "5",
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1668272142i/40948486.jpg",
     "id": "d124b2e3-616f-42cf-a2c2-478c2b1b509b"
+  },
+  {
+    "title": "So Happy Together",
+    "author": "Olivia Worley",
+    "rating": "4",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1723403829i/217388155.jpg",
+    "id": "8c84ec70-c85d-4520-95f4-a128b40dead5"
+  },
+  {
+    "title": "This Book Will Bury Me",
+    "author": "Ashley Winstead",
+    "rating": "3",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1723130372i/213570821.jpg",
+    "id": "6fb2c5b0-b0fa-4d29-8dfc-e86fda21bb07"
+  },
+  {
+    "title": "Family of Liars",
+    "author": "E. Lockhart",
+    "rating": "5",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1636570306i/59586261.jpg",
+    "id": "ccafca48-4ecf-45d4-ab16-81c7e5877ae4"
   }
 ]
