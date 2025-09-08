@@ -6,9 +6,12 @@ Frontend: npm start
 
 backend: node server
 
-deploy: npm run deploy
+deploy(cd frontend from main): npm run deploy
 
-// TODO:
+backend data:
+https://books-backend-qqn9.onrender.com/books
+
+// Tasks:
 
 main section
 - [x] favorites section
@@ -23,11 +26,9 @@ sidebar
 - [x] progress bar 
 - [x] add new book
 
-
 code
 - [x] deploy frontend
-- [ ] deploy backend
+- [x] deploy backend
 - [x] mobile version
 - [x] color stylesheet
 - [x] add all data
-
