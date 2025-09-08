@@ -1,3 +1,4 @@
+**Links**
 Deployed here:
 https://nwelsh.github.io/nicoles-books/
 
@@ -5,12 +6,13 @@ backend data (deployed using Render.com):
 https://books-backend-qqn9.onrender.com/books
 
 **To run locally**
+
 Frontend: npm start
 backend: node server
 deploy(cd frontend from main): npm run deploy
 
 
-// Tasks:
+**// Tasks:**
 main section
 - [x] favorites section
 - [x] cards background color: random
