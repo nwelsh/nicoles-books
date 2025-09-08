@@ -6,7 +6,7 @@ Frontend: npm start
 
 backend: node server
 
-deploy(from frontend): npm run deploy
+deploy(cd frontend from main): npm run deploy
 
 backend data:
 https://books-backend-qqn9.onrender.com/books
