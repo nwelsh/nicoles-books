@@ -4,8 +4,7 @@ https://nwelsh.github.io/nicoles-books/
 backend data (deployed using Render.com):
 https://books-backend-qqn9.onrender.com/books
 
-**To run locally
-**
+**To run locally**
 Frontend: npm start
 backend: node server
 deploy(cd frontend from main): npm run deploy
