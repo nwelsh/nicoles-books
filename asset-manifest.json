@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/nicoles-books/static/css/main.bcd1f5d1.css",
-    "main.js": "/nicoles-books/static/js/main.ae5aa216.js",
+    "main.js": "/nicoles-books/static/js/main.fb0e1283.js",
     "static/js/453.670e15c7.chunk.js": "/nicoles-books/static/js/453.670e15c7.chunk.js",
     "index.html": "/nicoles-books/index.html",
     "static/media/trash.svg": "/nicoles-books/static/media/trash.b136ca2ab2f171f94240f760a9d09cec.svg",
     "static/media/pin.svg": "/nicoles-books/static/media/pin.42b50fe8b134910e90091c5db78c79b0.svg",
     "main.bcd1f5d1.css.map": "/nicoles-books/static/css/main.bcd1f5d1.css.map",
-    "main.ae5aa216.js.map": "/nicoles-books/static/js/main.ae5aa216.js.map",
+    "main.fb0e1283.js.map": "/nicoles-books/static/js/main.fb0e1283.js.map",
     "453.670e15c7.chunk.js.map": "/nicoles-books/static/js/453.670e15c7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bcd1f5d1.css",
-    "static/js/main.ae5aa216.js"
+    "static/js/main.fb0e1283.js"
   ]
 }
