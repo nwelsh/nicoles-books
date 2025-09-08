@@ -1,18 +1,17 @@
 Deployed here:
 https://nwelsh.github.io/nicoles-books/
 
-To run locally
-Frontend: npm start
-
-backend: node server
-
-deploy(cd frontend from main): npm run deploy
-
-backend data:
+backend data (deployed using Render.com):
 https://books-backend-qqn9.onrender.com/books
 
-// Tasks:
+**To run locally
+**
+Frontend: npm start
+backend: node server
+deploy(cd frontend from main): npm run deploy
 
+
+// Tasks:
 main section
 - [x] favorites section
 - [x] cards background color: random
