@@ -1,4 +1,5 @@
 **Links**
+
 Deployed here:
 https://nwelsh.github.io/nicoles-books/
 
@@ -12,7 +13,8 @@ backend: node server
 deploy(cd frontend from main): npm run deploy
 
 
-**// Tasks:**
+**Tasks:**
+
 main section
 - [x] favorites section
 - [x] cards background color: random
