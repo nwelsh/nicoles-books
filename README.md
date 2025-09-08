@@ -11,7 +11,7 @@ deploy(from frontend): npm run deploy
 backend data:
 https://books-backend-qqn9.onrender.com/books
 
-// TODO:
+// Tasks:
 
 main section
 - [x] favorites section
@@ -26,13 +26,9 @@ sidebar
 - [x] progress bar 
 - [x] add new book
 
-
 code
 - [x] deploy frontend
-- [ ] deploy backend
+- [x] deploy backend
 - [x] mobile version
 - [x] color stylesheet
 - [x] add all data
-
-deploy backend (with Railway)
-- 
