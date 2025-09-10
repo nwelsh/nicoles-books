@@ -6,6 +6,8 @@ https://nwelsh.github.io/nicoles-books/
 backend data (deployed using Render.com):
 https://books-backend-qqn9.onrender.com/books
 
+backend repo: https://github.com/nwelsh/books-backend
+
 **To run locally**
 
 Frontend: npm start
